@@ -7,11 +7,17 @@ body {
 }
 
 .main-container {
-  width: 60%;
-  /* background: red; */
+  /* width: 80%; */
+  /* margin: auto; */
+  background: red;
 }
 
 @media screen and (max-width: 639px) {
+  /* body {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+  } */
   .main-container {
     /* width: 90%; */
     /* margin: auto; */
@@ -31,6 +37,7 @@ body {
     flex-direction: row;
     align-items: center;
     height: 50px;
+    padding-left: 10px;
     background-color: #5c0426;
   }
 
@@ -43,6 +50,7 @@ body {
     justify-content: center;
     margin-left: 0.5rem;
   }
+
   .head span {
     margin-left: 0.5rem;
   }
@@ -89,7 +97,6 @@ body {
   .nav-bar ul li {
     padding: 4px;
   }
-
   .hero {
     /* border: 1px solid blue; */
     height: 200px;
@@ -100,6 +107,7 @@ body {
     align-content: center;
     justify-content: center;
   }
+
   .title {
     display: flex;
     flex-direction: column;
@@ -112,9 +120,9 @@ body {
     flex-direction: row;
     padding: 0px;
     background-color: white;
-    width: 250px;
+    width: 100%;
     border-radius: 30px;
-    margin-top: 25p;
+    margin-top: 25px;
     margin: auto;
     box-shadow: 0px 25px 30px #00000022;
   }
@@ -128,344 +136,6 @@ body {
     padding: 10px;
     margin-top: 2px;
     margin-bottom: 2px;
-  }
-
-  .wwd-card {
-    color: #8a959e;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    width: 100%;
-    -webkit-box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.1),
-      0 0 20px 10px rgba(0, 0, 0, 0.035);
-    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.1),
-      0 0 20px 10px rgba(0, 0, 0, 0.035);
-    border-radius: 4px;
-    margin-bottom: 10px;
-    height: 60px;
-  }
-
-  .wwd-card img {
-    margin-right: 30px;
-  }
-
-  .wwd-card span {
-    /* border: 1px solid black; */
-    width: 60%;
-  }
-
-  .what-we-do {
-    /* border: 1px solid yellow; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px;
-  }
-  /* recommended  restaurant */
-  .rr-card-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .wwd-card-img {
-    width: 50px;
-  }
-  .recommended-title {
-    text-align: center;
-    padding-bottom: 2rem;
-    color: #707172;
-  }
-  .recommended-restuarant {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-  }
-
-  .rr-card {
-    width: 200px;
-    box-shadow: 0 0.5rem 1.5rem rgba(20, 28, 45, 0.15) !important;
-    border-radius: 5px;
-    margin-bottom: 30px;
-  }
-  .rr-img {
-    width: inherit;
-  }
-
-  .card-body {
-    display: flex;
-    flex-direction: column;
-    padding: 12px;
-  }
-
-  .card-body div:first-child {
-    padding-bottom: 8px;
-  }
-
-  .star-icon {
-    color: #dededf;
-  }
-
-  /* how it works */
-  .how-it-works {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #5c0426;
-    color: white;
-    padding: 30px;
-  }
-
-  .how-it-card-container {
-    /* border: 1px solid black; */
-    margin: auto;
-    margin-top: 15px;
-  }
-
-  .how-it {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .how-it-img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: white;
-  }
-
-  /* popular restaurant */
-  .popular-restaurant {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;
-  }
-
-  /* download app */
-  .download-app {
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    background-color: black;
-    overflow: hidden;
-  }
-
-  .phone {
-    display: none;
-  }
-
-  .downloads {
-    color: white;
-    z-index: 1;
-    padding: 1rem;
-  }
-
-  .burger {
-    width: 200px;
-    height: 150px;
-    position: relative;
-    right: 100px;
-  }
-
-  /* testimonial section */
-  .testimonial {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .testimonial h3 {
-    padding-top: 2rem;
-  }
-
-  .customer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .customer-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-  }
-
-  .test-card {
-    padding-bottom: 2rem;
-  }
-
-  /* footer section */
-  .footer-card {
-    display: flex;
-    flex-direction: column;
-    color: white;
-  }
-
-  .footer-card ul,
-  h5 {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  .footer-container {
-    /* border: 1px solid purple; */
-    height: 10rem;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-  }
-  .footer {
-    /* border: 1px solid purple; */
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-  }
-}
-
-/* large screen greater or equal than 64opx */
-@media (min-width: 640px) {
-  .hand-burger-container {
-    display: none;
-  }
-
-  .head {
-    background-color: #5c0426;
-    color: white;
-    height: 4.6rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    /* padding-left: 10px;
-        margin-right: auto;
-        /* margin-left: auto; */
-    padding-right: 5rem;
-    padding-left: 5rem;
-  }
-
-  .logo {
-    display: flex;
-    width: 40px;
-    height: 30px;
-    font-weight: bolder;
-    color: white;
-    text-decoration: none;
-  }
-
-  .logo-img {
-    /* padding-right: 1rem; */
-    /* width: 50px; */
-  }
-
-  .icon {
-    padding-right: 9rem;
-  }
-
-  .logo span {
-    margin-top: 1px;
-    margin-left: 3px;
-    font-size: 1.5rem;
-  }
-  .head nav {
-    margin-right: 10px;
-  }
-
-  .head nav ul {
-    list-style-type: none;
-    display: flex;
-  }
-
-  .head ul li {
-    padding-right: 1.5rem;
-  }
-  .head ul li:hover {
-    color: #ffcf27;
-  }
-  .hand-burger {
-    width: 20px;
-    height: 3px;
-    background-color: white;
-    margin: 3px;
-  }
-
-  nav.nav-bar {
-    /* border: 1px solid green; */
-    height: 70px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 5rem;
-    padding-left: 5rem;
-  }
-
-  .nav-bar nav a {
-    display: flex;
-    flex-direction: row;
-    color: black;
-  }
-
-  .nav-bar {
-    display: flex;
-    align-items: center;
-    color: black;
-  }
-
-  .nav-bar a {
-    text-decoration: none;
-    margin-left: auto;
-    padding-right: 15px;
-  }
-  .nav-bar ul {
-    list-style-type: none;
-    display: flex;
-    padding-left: 0;
-    align-items: center;
-  }
-
-  .nav-bar ul li {
-    padding: 4px;
-  }
-
-  /* hero section banner with search field */
-  .hero {
-    /* border: 1px solid blue; */
-    height: 500px;
-    background-image: url("/assets/banner.png");
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-  }
-  .title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: #5c0426;
-    font-size: 2.5rem;
-  }
-  .search-food-delivery {
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-    background-color: white;
-    width: 60%;
-    border-radius: 30px;
-    margin-top: 25p;
-    margin: auto;
-    box-shadow: 0px 25px 30px #00000022;
   }
 
   .select-css {
@@ -518,7 +188,7 @@ body {
     top: 0px;
     width: 20px;
     height: 20px;
-    background: #f8f8f8;
+    background: #ffffff;
     position: absolute;
     pointer-events: none;
     display: block;
@@ -533,367 +203,26 @@ body {
       padding-right: 18px;
     }
   }
+}
 
+@media screen and (max-width: 414px) {
+
+  .hero {
+    height: 250px;
+  }
+  .search-food-delivery {
+    width: 60%;
+    flex-wrap: wrap;
+    background: none;
+  }
   .search-button {
-    margin-left: auto;
-    background-color: #5c0426;
-    border-radius: 0px 30px 30px 0px;
-    border: none;
-    color: #d6d6d6;
-    padding: 10px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    padding: 0.5rem;
-  }
-  .container {
-    /* height: 500px; */
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-  /* what we do section */
-
-  .what-we-do {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    margin-top: 2rem;
-    /* width: 50%; */
-    padding: 3rem;
-  }
-
-  .wwd-card {
-    color: #8a959e;
-    /* font-weight: bold; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 4rem;
-    /* width: 100%; */
-    margin-bottom: 3rem;
-    margin-top: 1.5rem;
-    /* margin-right: 4rem;
-        margin-left: 4rem; */
-    /* height: 60px; */
-  }
-
-  .wwd-card img {
-    margin-right: 30px;
-  }
-
-  .wwd-card span {
-    /* border: 1px solid black; */
-    width: 60%;
-  }
-
-  /* recommended  restaurant */
-  .rr-card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-
-  .wwd-card-img {
-    width: 60px;
-  }
-
-  /* recommended restaurant */
-  .recommended-restuarant {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-  }
-  .recommended-title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: #707172;
-  }
-  .rr-card {
-    width: 200px;
-    box-shadow: 0 0.5rem 1.5rem rgba(20, 28, 45, 0.15) !important;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    margin: 1rem;
-  }
-
-  .rr-card:after {
-    width: 20px;
-    height: 20px;
-    border-top-right-radius: 30px;
-    background-color: #5c0426;
-    position: relative;
-    top: 0px;
-  }
-
-  .rr-img {
-    width: inherit;
-  }
-
-  .card-body {
-    display: flex;
-    flex-direction: column;
-    padding: 12px;
-  }
-
-  .card-body div:first-child {
-    padding-bottom: 8px;
-  }
-
-  .star-icon {
-    color: #dededf;
-  }
-
-  /* how it works */
-  .how-it-works {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #5c0426;
-    color: white;
-    padding: 30px;
-  }
-
-  .how-it-card-container {
-    /* border: 1px solid black; */
-    display: flex;
-    flex-direction: row;
-    padding: 4rem;
-    margin: auto;
-    margin-top: 15px;
-  }
-
-  .how-it {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .how-it-img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: white;
-  }
-
-  /* popular restaurant */
-  .popular {
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    color: #707172;
-  }
-  .popular-restaurant {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;
-  }
-
-  /* download app */
-  .download-app {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    overflow: hidden;
-    height: 440px;
-    background-image: url("/assets/580b57fcd9996e24bc43c1a8.png");
-    background-repeat: no-repeat;
-    background-position-x: 71rem;
-    background-size: 470px;
-  }
-
-  .phone-img {
-    width: 400px;
-  }
-  .phone {
-    display: none;
-  }
-
-  .downloads {
-    color: white;
-    width: 500px;
-  }
-  .phone-app {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    color: white;
-  }
-
-  .burger {
-    width: 500px;
-    position: absolute;
-    right: -190px;
-    border: 1px solid red;
-  }
-
-  /* testimonial section */
-  .testimonial {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .testimonial h3 {
-    padding-top: 2rem;
-  }
-
-  .customer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
-    margin-right: 1rem;
-    margin-left: 1em;
-  }
-
-  .customer-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-  }
-
-  .test-card {
     width: 100%;
-    padding-bottom: 2rem;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-  }
-
-  /* footer section */
-  .footer-card {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    margin-left: 5.5rem;
-    margin-right: 5.5rem;
-  }
-  .footer-text {
-    font-size: 0.7rem;
-  }
-
-  .footer-text ul li {
-    line-height: 1.5rem;
-  }
-  .footer-card {
-    /* font-size: .8rem; */
-  }
-  .footer-card ul,
-  h5 {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .bus-img {
-    display: flex;
-  }
-
-  .footer-card h2 {
-    font-size: 2rem !important;
-    margin-bottom: 0;
-    padding-top: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-  }
-
-  .footer-container {
-    height: 20rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .footer {
-    background-color: #121212;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 1rem;
+    border-radius: 30px;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .download-app {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    overflow: hidden;
-    height: 440px;
-    background-image: url("/assets/580b57fcd9996e24bc43c1a8.png");
-    background-repeat: no-repeat;
-    background-position-x: 60rem;
-    background-size: 470px;
-  }
-
-  .phone {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .main-container {
-    width: 60%;
-    margin: auto;
-  }
-
-  .download-app {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    overflow: hidden;
-    height: 440px;
-    background-image: url("/assets/580b57fcd9996e24bc43c1a8.png");
-    background-repeat: no-repeat;
-    background-position-x: 71rem;
-    background-size: 470px;
-  }
-
-  .phone-img {
-    padding-top: 19rem;
-    width: 300px;
-    margin-right: 2rem;
-    margin-left: 2rem;
-  }
-
-  .downloads {
-    padding-right: 6rem;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .downloads {
-    padding-right: auto;
-  }
-  .phone-img {
-    display: none;
+@media screen and (max-width: 640px){
+  .search-food-delivery {
+    width: 80%
   }
 }

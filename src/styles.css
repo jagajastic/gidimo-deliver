@@ -6,24 +6,586 @@ body {
   padding: 0;
 }
 
-.main-container {
-  /* width: 80%; */
-  /* margin: auto; */
+/* .main-container {
+  width: 60%;
+  margin: auto;
   background: red;
+} */
+
+/* large screen */
+@media (min-width: 640px) {
+  .hand-burger-container {
+    display: none;
+  }
+
+  .head {
+    background-color: #5c0426;
+    color: white;
+    height: 4.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .logo {
+    display: flex;
+    width: 40px;
+    height: 30px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+  }
+
+  .button {
+    height: 30px;
+
+    border: 1px solid black;
+
+    padding: 0.456rem;
+
+    border-radius: 30px;
+
+    background-color: red;
+  }
+
+  .icon {
+    padding-right: 9rem;
+  }
+
+  .logo span {
+    margin-top: 1px;
+    margin-left: 3px;
+    font-size: 1.5rem;
+  }
+
+  .head nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .head ul li {
+    padding-right: 1.5rem;
+  }
+
+  .head ul li a {
+    font-size: 14px;
+  }
+
+  .head ul li:last-child a {
+    background: #480720;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+  .head ul li:hover {
+    color: #ffcf27;
+  }
+  .hand-burger {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 3px;
+  }
+
+  nav.nav-bar {
+    /* border: 1px solid green; */
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .nav-bar nav a {
+    display: flex;
+    flex-direction: row;
+    color: black;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+
+  .nav-bar a {
+    text-decoration: none;
+    margin-left: auto;
+    padding-right: 15px;
+  }
+  .nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .nav-bar ul li {
+    padding: 4px;
+  }
+
+  /* hero section banner with search field */
+  .hero {
+    /* border: 1px solid blue; */
+    height: 500px;
+    background-image: url("/assets/banner.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15%;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #5c0426;
+    font-size: 2.5rem;
+  }
+  .search-food-delivery {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 25px 30px #00000022;
+    padding: 0.4rem;
+  }
+
+  .select-css {
+    padding: 1.2em 1.2em 1.2em 3.2em;
+    color: #8a959e;
+    border: none;
+    background-repeat: no-repeat;
+    background-color: white;
+    outline: none;
+    width: 100%;
+  }
+
+  /* The CSS */
+  select {
+    padding: 3px;
+    margin: 0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 3px 0 rgb(255, 255, 255), 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 rgb(255, 253, 253), 0 -1px #fff inset;
+    box-shadow: 0 3px 0 rgb(255, 255, 255), 0 -1px #fff inset;
+    background: #f8f8f8;
+    border: none;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  label:after {
+    content: ">";
+    font: 11px "Consolas", monospace;
+    color: #aaa;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 20px;
+    top: 45%;
+    position: absolute;
+    pointer-events: none;
+  }
+  label:before {
+    content: "";
+    right: 6px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    pointer-events: none;
+    display: block;
+  }
+
+  label {
+    width: 100%;
+    position: relative;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    select {
+      padding-right: 18px;
+    }
+  }
+
+  .search-button {
+    /* margin-left: auto; */
+    background-color: #5c0426;
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+    color: #d6d6d6;
+    padding: 10px;
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* what we do section */
+
+  .what-we-do {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .wwd-card {
+    color: #8a959e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .wwd-card img {
+    margin-right: 30px;
+  }
+
+  .wwd-card span {
+    /* border: 1px solid black; */
+    width: 60%;
+  }
+
+  /* recommended  restaurant */
+  .rr-card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wwd-card-img {
+    width: 60px;
+  }
+
+  /* recommended restaurant */
+  .recommended-restuarant {
+    margin: 0 15%;
+    margin-bottom: 70px;
+    position: relative;
+  }
+
+  .recommended-restuarant::after {
+    content: ">";
+    background-color: #5c0426;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: rgb(189, 189, 189);
+    padding: 0.5rem;
+    position: absolute;
+    right: -20px;
+    top: 120px;
+  }
+
+  .recommended-restuarant::before {
+    content: "<";
+    background-color: #5c0426;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: rgb(189, 189, 189);
+    padding: 0.6rem;
+    position: absolute;
+    left: -20px;
+    top: 120px;
+  }
+
+  .recommended-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #707172;
+    position: relative;
+    margin: 0 15%;
+  }
+  .recommended-title span {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    color: #5c0426;
+  }
+
+  .view-link {
+    text-decoration: none;
+    color: #5c0426;
+  }
+
+  .rr-card {
+    width: 200px;
+    box-shadow: 0 0.5rem 1.5rem rgba(20, 28, 45, 0.15) !important;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin: 1rem;
+  }
+
+  .rr-card:after {
+    width: 20px;
+    height: 20px;
+    border-top-right-radius: 30px;
+    background-color: #5c0426;
+    position: relative;
+    top: 0px;
+  }
+
+  .rr-img {
+    width: inherit;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .card-body div:first-child {
+    padding-bottom: 8px;
+  }
+
+  .star-icon {
+    color: #dededf;
+  }
+
+  /* how it works */
+  .how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5c0426;
+    color: white;
+    padding: 20px;
+  }
+
+  .how-it-card-container {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .how-it {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .how-to-title {
+    padding-top: 20px;
+  }
+
+  .how-it-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  /* popular restaurant */
+  .popular {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    color: #707172;
+  }
+  .popular-restaurant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  /* download app */
+  .download-app {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+    height: 440px;
+    background-image: url("/assets/580b57fcd9996e24bc43c1a8.png");
+    background-repeat: no-repeat;
+    background-position-x: 71rem;
+    background-size: 470px;
+  }
+
+  .phone-img {
+    width: 400px;
+  }
+  .phone {
+    display: none;
+  }
+
+  .downloads {
+    color: white;
+    width: 500px;
+  }
+  .phone-app {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: white;
+  }
+
+  .burger {
+    width: 500px;
+    position: absolute;
+    right: -190px;
+    border: 1px solid red;
+  }
+
+  /* testimonial section */
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .testimonial h3 {
+    padding-top: 2rem;
+  }
+
+  .customer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-left: 1em;
+  }
+
+  .customer-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .test-card {
+    width: 100%;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  /* footer section */
+  .footer-card {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+  }
+  .footer-text {
+    font-size: 0.7rem;
+  }
+
+  .footer-text ul li {
+    line-height: 1.5rem;
+  }
+  .footer-card {
+    /* font-size: .8rem; */
+  }
+  .footer-card ul,
+  h5 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .bus-img {
+    display: flex;
+  }
+
+  .footer-card h2 {
+    font-size: 2rem !important;
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  .footer-container {
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .footer {
+    background-color: #121212;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .privacy {
+    background-color: black;
+    height: 80px;
+  }
+  .privacy-text {
+    padding-top: 30px;
+  }
+  .privacy-text ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+    position: relative;
+  }
+
+  .privacy-text ul li {
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+
+  .date {
+    position: relative;
+    right: -190px;
+  }
 }
 
 @media screen and (max-width: 639px) {
-  /* body {
+  body {
     font-family: Montserrat;
     margin: 0;
     padding: 0;
-  } */
+  }
   .main-container {
-    /* width: 90%; */
-    /* margin: auto; */
-    /* padding-left: 0; */
-    /* border: 1px solid red; */
-
+    width: 100%;
+    margin: auto;
+    background: red;
     display: flex;
     flex-direction: row;
     align-items: center;

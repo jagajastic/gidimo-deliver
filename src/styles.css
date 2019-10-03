@@ -256,6 +256,8 @@ body {
     align-items: center;
     justify-content: center;
     color: #707172;
+    text-align: center;
+    margin: 4 auto;
   }
 
   .recommended-restuarant {
@@ -312,12 +314,36 @@ body {
   }
 
   .how-it-card-container {
-    /* border: 1px solid black; */
     display: flex;
-    flex-direction: row;
-    padding: 4rem;
-    margin: auto;
-    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .how-it {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .how-it-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  /* how it works */
+  .how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5c0426;
+    color: white;
+    padding: 30px;
   }
 
   .how-it {

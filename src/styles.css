@@ -361,6 +361,51 @@ body {
     border-radius: 50%;
     background-color: white;
   }
+
+  /* download app */
+  .download-app {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+    height: 300px;
+    background-image: url("/assets/580b57fcd9996e24bc43c1a8.png");
+    background-repeat: no-repeat;
+    background-position-x: 71rem;
+    background-size: 470px;
+  }
+
+  .phone-img {
+    width: 400px;
+  }
+  .phone {
+    display: none;
+  }
+
+  .downloads {
+    color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .phone-app {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: white;
+  }
+
+  .burger {
+    width: 500px;
+    position: absolute;
+    right: -190px;
+    border: 1px solid red;
+  }
 }
 
 @media screen and (max-width: 414px) {

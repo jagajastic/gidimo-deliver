@@ -198,15 +198,59 @@ body {
     width: 100%;
     position: relative;
   }
+  /* this hied the drowdown for older browser */
   @media screen and (-webkit-min-device-pixel-ratio: 0) {
     select {
       padding-right: 18px;
     }
   }
+
+  /* what we do section */
+
+  .what-we-do {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+
+  .wwd-card {
+    color: #8a959e;
+    /* font-weight: bold; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.1),
+      0 0 20px 10px rgba(0, 0, 0, 0.035);
+    -webkit-box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.1),
+      0 0 20px 10px rgba(0, 0, 0, 0.035);
+    text-align: center;
+  }
+
+  .wwd-card img {
+    /* margin-right: 30px; */
+    padding-right: 1rem;
+    width: 40px;
+  }
+
+  .wwd-card span {
+    /* border: 1px solid black; */
+    width: 60%;
+  }
+
+  .wwd-card p {
+    float: left;
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 414px) {
-
   .hero {
     height: 250px;
   }
@@ -221,8 +265,8 @@ body {
   }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) {
   .search-food-delivery {
-    width: 80%
+    width: 80%;
   }
 }

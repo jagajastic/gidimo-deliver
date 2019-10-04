@@ -462,7 +462,17 @@ body {
     padding-right: 15%;
     padding-left: 15%;
   }
+  .img-text {
+    display: inherit;
+    flex-direction: row;
+  }
 
+  .img-text img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 90px;
+    height: 83px;
+  }
   .testimonial h3 {
     padding-top: 2rem;
   }
@@ -1025,7 +1035,17 @@ body {
     flex-direction: column;
     text-align: center;
   }
+  .img-text {
+    display: inherit;
+    flex-direction: row;
+  }
 
+  .img-text img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 90px;
+    height: 83px;
+  }
   .testimonial h3 {
     padding-top: 2rem;
   }

@@ -9,6 +9,7 @@ import { DownloadComponentComponent } from './download-component/download-compon
 import { PopularRestaurantsComponent } from './popular-restaurants/popular-restaurants.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { RecommendedComponentComponent } from './recommended-component/recommended-component.component';
+import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RecommendedComponentComponent } from './recommended-component/recommend
     DownloadComponentComponent,
     PopularRestaurantsComponent,
     HowItWorksComponent,
-    RecommendedComponentComponent
+    RecommendedComponentComponent,
+    WhatWeDoComponent
   ],
   imports: [
     BrowserModule,

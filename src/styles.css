@@ -602,6 +602,47 @@ body {
     background-color: #5c0426;
   }
 
+  .show-menu {
+    /* display: block; */
+    left: 0 !important;
+    transition: 0.2s;
+  }
+
+  .show-menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-top: 5px;
+  }
+
+  .show-menu ul li {
+    padding: 1rem;
+    cursor: pointer;
+  }
+
+  .show-menu ul li a:hover {
+    color: #ffcf27;
+  }
+
+  .show-menu ul li a {
+    font-weight: normal;
+    font-size: 0.8em;
+  }
+  /* animation */
+  /* .show-menu {
+    transition: left 0.5s;
+  } */
+
+  .head ul li:last-child a {
+    background: #480720;
+    padding: 6px 6px;
+    border-radius: 30px;
+  }
+
   .head a {
     text-decoration: none;
     color: white;
@@ -616,12 +657,19 @@ body {
     margin-left: 0.5rem;
   }
 
-  .head nav ul {
-    list-style-type: none;
-    display: none;
+  .main-nav-bar {
+    left: -60%;
+    transition: 0.2s;
+    background-color: #5c0426;
+    float: left;
+    position: absolute;
+    top: 50px;
+    border: 1 solid yellow;
+    height: 100%;
+    width: 60%;
+    z-index: 1;
   }
 
-  .head nav > ul > li,
   nav > button {
     display: none;
   }
@@ -630,6 +678,10 @@ body {
     height: 3px;
     background-color: white;
     margin: 3px;
+  }
+
+  .hand-burger-container {
+    cursor: pointer;
   }
 
   nav.nav-bar {
@@ -1086,6 +1138,9 @@ body {
 }
 
 @media screen and (max-width: 414px) {
+  .head a {
+    justify-content: flex-start;
+  }
   .hero {
     height: 250px;
   }
@@ -1097,6 +1152,11 @@ body {
   .search-button {
     width: 100%;
     border-radius: 30px;
+  }
+}
+@media screen and (min-width: 414px) {
+  .head a {
+    justify-content: flex-start;
   }
 }
 

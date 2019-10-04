@@ -71,5 +71,21 @@ export class AppComponent {
       }
     ]
   };
+
+  testimony = {
+    title: "What Users Are Saying About Boxlt",
+    testimonies: [
+      {
+        title: "Abiola Mamud",
+        message:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint natus possimus totam laboriosam sapiente unde commodi assumenda mollitia. Illum voluptatem suscipit officiis. Dolorum dignissimos maiores tempora sint corporis praesentium possimus?"
+      },
+      {
+        title: "Kasim Abas",
+        message:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint natus possimus totam laboriosam sapiente unde commodi assumenda mollitia. Illum voluptatem suscipit officiis. Dolorum dignissimos maiores tempora sint corporis praesentium possimus?"
+      }
+    ]
+  };
   title = "gidimo-deliver";
 }

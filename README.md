@@ -1,4 +1,4 @@
-Deployment [Link](https://relaxed-blackwell-210861.netlify.com/)
+Deployment [Link](https://relaxed-blackwell-210861.netlify.com/) https://relaxed-blackwell-210861.netlify.com/
 
 # GidimoDeliver
 

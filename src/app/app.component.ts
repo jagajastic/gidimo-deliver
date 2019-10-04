@@ -31,6 +31,7 @@ export class AppComponent {
     },
     popular: {
       title: "Recommended Restaurants",
+      view: false,
       restaurants: [
         {
           title: "Restaurant A",

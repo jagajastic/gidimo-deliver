@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-testimony-card',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./testimony-card.component.css']
 })
 export class TestimonyCardComponent implements OnInit {
-
+@Input() data;
   constructor() { }
 
   ngOnInit() {

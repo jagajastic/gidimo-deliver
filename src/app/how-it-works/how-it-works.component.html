@@ -1,39 +1,15 @@
 <!-- how it works -->
 <section class="how-it-works">
-        <h3 class="how-to-title">
-          How It Works
-        </h3>
-        <div class="how-it-card-container">
-          <div class="how-it">
-            <div class="how-it-img"></div>
-            <img src="" alt="" />
-            <h4>Select Restaurant</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-              quibusdam! Omnis et, id nesciunt laboriosam quae culpa eos sed enim,
-              ut quas error ducimus unde, quidem quaerat hic blanditiis. Totam.
-            </p>
-          </div>
-          <div class="how-it">
-            <div class="how-it-img"></div>
-            <img src="" alt="" />
-            <h4>Select Restaurant</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-              quibusdam! Omnis et, id nesciunt laboriosam quae culpa eos sed enim,
-              ut quas error ducimus unde, quidem quaerat hic blanditiis. Totam.
-            </p>
-          </div>
-          <div class="how-it">
-            <div class="how-it-img"></div>
-            <img src="" alt="" />
-            <h4>Select Restaurant</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-              quibusdam! Omnis et, id nesciunt laboriosam quae culpa eos sed enim,
-              ut quas error ducimus unde, quidem quaerat hic blanditiis. Totam.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- end of how it works -->
+  <h3 class="how-to-title">
+    {{ data.title }}
+  </h3>
+  <div class="how-it-card-container">
+    <div class="how-it" *ngFor="let step of data.steps">
+      <div class="how-it-img"></div>
+      <img src="" alt="" />
+      <h4>{{ step.title }}</h4>
+      <p>{{ step.context }}</p>
+    </div>
+  </div>
+</section>
+<!-- end of how it works -->

@@ -10,7 +10,7 @@ export class NavBarComponent implements OnInit {
 
   ngOnInit() {}
 
-  clickHandBurger(show: boolean) {
+  clickHandBurger() {
     const el = document.querySelector(".main-nav-bar");
     el.classList.toggle("show-menu");
   }

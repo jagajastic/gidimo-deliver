@@ -664,7 +664,6 @@ body {
     float: left;
     position: absolute;
     top: 50px;
-    border: 1 solid yellow;
     height: 100%;
     width: 60%;
     z-index: 1;

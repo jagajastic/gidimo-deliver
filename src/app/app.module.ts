@@ -8,6 +8,7 @@ import { TestimonyCardComponent } from './testimony-card/testimony-card.componen
 import { DownloadComponentComponent } from './download-component/download-component.component';
 import { PopularRestaurantsComponent } from './popular-restaurants/popular-restaurants.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
+import { RecommendedComponentComponent } from './recommended-component/recommended-component.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
     TestimonyCardComponent,
     DownloadComponentComponent,
     PopularRestaurantsComponent,
-    HowItWorksComponent
+    HowItWorksComponent,
+    RecommendedComponentComponent
   ],
   imports: [
     BrowserModule,

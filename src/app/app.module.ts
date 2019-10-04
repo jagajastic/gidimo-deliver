@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { TestimonyCardComponent } from './testimony-card/testimony-card.component';
 import { DownloadComponentComponent } from './download-component/download-component.component';
 import { PopularRestaurantsComponent } from './popular-restaurants/popular-restaurants.component';
+import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PopularRestaurantsComponent } from './popular-restaurants/popular-resta
     FooterComponent,
     TestimonyCardComponent,
     DownloadComponentComponent,
-    PopularRestaurantsComponent
+    PopularRestaurantsComponent,
+    HowItWorksComponent
   ],
   imports: [
     BrowserModule,

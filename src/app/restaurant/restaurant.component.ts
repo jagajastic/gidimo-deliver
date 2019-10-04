@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from "@angular/core";
   styleUrls: ["./restaurant.component.css"]
 })
 export class RestaurantComponent implements OnInit {
-  @Input() data: object;
+  @Input() data;
   constructor() {}
 
   ngOnInit() {}

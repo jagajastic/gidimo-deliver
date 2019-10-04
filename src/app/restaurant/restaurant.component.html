@@ -1,0 +1,27 @@
+<!-- recommended Restaurants title-->
+<div class="recommended-title">
+  <h3>{{ data.title }}</h3>
+  <span
+    ><a href="#" class="view-link" *ngIf="data.view">{{ data.view }}</a></span
+  >
+</div>
+
+<section class="recommended-restuarant">
+  <div class="rr-card-container">
+    <div class="rr-card" *ngFor="let rec of data.restaurants">
+      <img src="/assets/jollofetcetera-lagos.jpg" alt="jellof" class="rr-img" />
+      <div class="card-body">
+        <div>{{ rec.title }}</div>
+        <div class="star-icon">
+          <img src="/assets/rate-star-button.svg" />
+          <img src="/assets/rate-star-button.svg" />
+          <img src="/assets/rate-star-button.svg" />
+          <img src="/assets/rate-star-button1.svg" />
+          <img src="/assets/rate-star-button1.svg" />
+          <span>(30)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of recommended restaurant -->

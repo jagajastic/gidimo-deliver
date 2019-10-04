@@ -5,9 +5,12 @@
   </h3>
   <div class="test-card">
     <div class="customer" *ngFor="let testify of data.testimonies">
-      <p>
-        {{ testify.message }}
-      </p>
+      <div class="img-text">
+        <img src="/assets/big-apostrophe.png" />
+        <p>
+          {{ testify.message }}
+        </p>
+      </div>
       <div class="customer-img">
         <img src="/assets/smile.jpeg" alt="customer" class="customer-img" />
       </div>

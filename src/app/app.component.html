@@ -12,12 +12,18 @@
 <!-- main content container -->
 <section class="container">
   <app-what-we-do></app-what-we-do>
-  <app-recommended-component></app-recommended-component>
+  <!-- recommended restaurants -->
+  <app-restaurant [data]="appData.recom"></app-restaurant>
+  <!-- how it works -->
   <app-how-it-works></app-how-it-works>
-  <app-popular-restaurants></app-popular-restaurants>
+  <!-- popular restuarants -->
+  <app-restaurant [data]="appData.popular"></app-restaurant>
+  <!-- download section -->
   <app-download-component></app-download-component>
+  <!-- testimony section -->
   <app-testimony-card></app-testimony-card>
 </section>
+<!-- footer -->
 <app-footer></app-footer>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->

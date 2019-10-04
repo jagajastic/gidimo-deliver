@@ -10,6 +10,7 @@ import { PopularRestaurantsComponent } from './popular-restaurants/popular-resta
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { RecommendedComponentComponent } from './recommended-component/recommended-component.component';
 import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
+import { HeroBannerComponent } from './hero-banner/hero-banner.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
     PopularRestaurantsComponent,
     HowItWorksComponent,
     RecommendedComponentComponent,
-    WhatWeDoComponent
+    WhatWeDoComponent,
+    HeroBannerComponent
   ],
   imports: [
     BrowserModule,

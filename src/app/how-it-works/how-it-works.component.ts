@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from "@angular/core";
 
 @Component({
-  selector: 'app-how-it-works',
-  templateUrl: './how-it-works.component.html',
-  styleUrls: ['./how-it-works.component.css']
+  selector: "app-how-it-works",
+  templateUrl: "./how-it-works.component.html",
+  styleUrls: ["./how-it-works.component.css"]
 })
 export class HowItWorksComponent implements OnInit {
+  @Input() data;
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

@@ -1,3 +1,5 @@
+Deployment [Link](https://relaxed-blackwell-210861.netlify.com/)
+
 # GidimoDeliver
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.

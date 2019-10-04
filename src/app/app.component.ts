@@ -30,8 +30,8 @@ export class AppComponent {
       ]
     },
     popular: {
-      title: "Recommended Restaurants",
-      view: false,
+      title: "Popular Restaurants",
+      view: "false",
       restaurants: [
         {
           title: "Restaurant A",
@@ -50,7 +50,7 @@ export class AppComponent {
           rate: 3
         }
       ]
-    },
+    }
   };
   title = "gidimo-deliver";
 }

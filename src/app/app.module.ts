@@ -11,6 +11,7 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { RecommendedComponentComponent } from './recommended-component/recommended-component.component';
 import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
 import { HeroBannerComponent } from './hero-banner/hero-banner.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HeroBannerComponent } from './hero-banner/hero-banner.component';
     HowItWorksComponent,
     RecommendedComponentComponent,
     WhatWeDoComponent,
-    HeroBannerComponent
+    HeroBannerComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
